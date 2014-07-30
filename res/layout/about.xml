@@ -71,6 +71,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="15dp"
                 android:background="@drawable/face" />
+            
+            <WebView 
+                android:id="@+id/Wv"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                />
 
             <Button
                 android:id="@+id/btnIn"
@@ -109,6 +115,29 @@
                 android:textSize="18sp"
                 android:textStyle="italic"
                 android:typeface="serif" />
+            
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btncancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btndec"
+                android:layout_margin="30dp"
+                android:background="@drawable/button_style" />
+            
+            <Button
+                android:id="@+id/btnsubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnenter"
+                android:layout_margin="30dp"
+                android:background="@drawable/button_style" />
+</LinearLayout>
         </LinearLayout>
    </LinearLayout>
     </ScrollView>
