@@ -121,8 +121,8 @@ public class Logins extends Activity implements OnClickListener, OnCheckedChange
 
 
 	@Override
-	public void onCheckedChanged(CompoundButton button, boolean checked) {
-		if(!checked){
+	public void onCheckedChanged(CompoundButton button, boolean ischecked) {
+		if(!ischecked){
 			
 			//showing password
 			etpass.setTransformationMethod(PasswordTransformationMethod.getInstance());
