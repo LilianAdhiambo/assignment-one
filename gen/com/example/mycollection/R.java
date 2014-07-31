@@ -1125,7 +1125,7 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f050069;
+        public static final int action_settings=0x7f05006a;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1218,6 +1218,7 @@ containing a value of this type.
         public static final int useLogo=0x7f050003;
         public static final int username=0x7f05004c;
         public static final int withText=0x7f05000c;
+        public static final int wv=0x7f050069;
     }
     public static final class integer {
         /**  The maximum number of action buttons that should be permitted within
@@ -1280,21 +1281,24 @@ containing a value of this type.
         public static final int activity_main_screen=0x7f030020;
         public static final int activity_splash_screen=0x7f030021;
         public static final int activity_tabs=0x7f030022;
-        public static final int call_screen=0x7f030023;
-        public static final int contact=0x7f030024;
-        public static final int counter=0x7f030025;
-        public static final int fragment_about=0x7f030026;
-        public static final int fragment_contact=0x7f030027;
-        public static final int fragment_home=0x7f030028;
-        public static final int fragment_splash_screen=0x7f030029;
-        public static final int geek=0x7f03002a;
-        public static final int home=0x7f03002b;
-        public static final int logins=0x7f03002c;
-        public static final int mathematics=0x7f03002d;
-        public static final int simple_layout=0x7f03002e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03002f;
-        public static final int tab=0x7f030030;
-        public static final int tabs=0x7f030031;
+        public static final int activity_web_view=0x7f030023;
+        public static final int call_screen=0x7f030024;
+        public static final int contact=0x7f030025;
+        public static final int counter=0x7f030026;
+        public static final int fragment_about=0x7f030027;
+        public static final int fragment_contact=0x7f030028;
+        public static final int fragment_home=0x7f030029;
+        public static final int fragment_splash_screen=0x7f03002a;
+        public static final int fragment_web_view=0x7f03002b;
+        public static final int geek=0x7f03002c;
+        public static final int home=0x7f03002d;
+        public static final int logins=0x7f03002e;
+        public static final int mathematics=0x7f03002f;
+        public static final int simple_layout=0x7f030030;
+        public static final int support_simple_spinner_dropdown_item=0x7f030031;
+        public static final int tab=0x7f030032;
+        public static final int tabs=0x7f030033;
+        public static final int webview=0x7f030034;
     }
     public static final class menu {
         public static final int about=0x7f0c0000;
@@ -1312,6 +1316,7 @@ containing a value of this type.
         public static final int main_screen=0x7f0c000c;
         public static final int splash_screen=0x7f0c000d;
         public static final int tabs=0x7f0c000e;
+        public static final int web_view=0x7f0c000f;
     }
     public static final class string {
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
@@ -1399,6 +1404,7 @@ containing a value of this type.
         public static final int title_activity_main=0x7f0a0014;
         public static final int title_activity_splash_screen=0x7f0a0039;
         public static final int title_activity_tabs=0x7f0a0029;
+        public static final int title_activity_web_view=0x7f0a003e;
         public static final int toast=0x7f0a001e;
         public static final int topic=0x7f0a0036;
         public static final int user=0x7f0a001b;

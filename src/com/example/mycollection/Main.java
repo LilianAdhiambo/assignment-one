@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -19,7 +18,7 @@ public class Main extends Activity implements OnItemClickListener {
 		//declaring variables
 			private ListView listview;
 			private ArrayAdapter<String>StringArrayAdapter;
-			String[] content={"Counter","Login","Geek","mathematics","tabs Activity"};
+			String[] content={"Counter","Login","Geek","mathematics","tabs Activity","Webview Activity"};
 			
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +62,10 @@ public class Main extends Activity implements OnItemClickListener {
 				
 			case 4:
 				startActivity(new Intent(getApplicationContext(),TabsActivity.class));
+				break;
+				
+			case 5:
+				startActivity(new Intent(getApplicationContext(),WebViewActivity.class));
 				break;
 				
 				

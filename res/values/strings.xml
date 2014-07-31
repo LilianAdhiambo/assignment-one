@@ -101,17 +101,10 @@ I am currently looking for an opportunity to further
        children which in return will enhance good relationship between the two parties 
        since they will be able to understand each other well.</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
-    
-    
-    
-    
-    
     <string name="username">Akirachix</string>
     <string name="phoneNumber">0713424556</string>
-    
     <string name="btnenter">submit</string>
     <string name="btndec">cancel</string>
-    
- 
-    
+    <string name="title_activity_web_view">WebViewActivity</string>
+
 </resources>

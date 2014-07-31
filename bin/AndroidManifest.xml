@@ -7,6 +7,8 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="19" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
         android:allowBackup="true"
@@ -22,7 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            <activity android:name=".Main" >
+        <activity android:name="com.example.mycollection.Main" >
         </activity>
         <activity android:name="com.example.mycollection.Counters" >
         </activity>
@@ -48,7 +50,10 @@
             android:name="com.example.mycollection.ContactActivity"
             android:label="@string/title_activity_contact" >
         </activity>
-        
+        <activity
+            android:name="com.example.mycollection.WebViewActivity"
+            android:label="@string/title_activity_web_view" >
+        </activity>
     </application>
 
 </manifest>
