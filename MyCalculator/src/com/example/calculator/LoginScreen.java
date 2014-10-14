@@ -16,45 +16,45 @@ import android.widget.EditText;
 import android.os.Build;
 
 public class LoginScreen extends ActionBarActivity implements OnClickListener {
-	
-	EditText etemail,etpassword;
-	Button  btnsubmit,btncancel;
-	
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.login);
-		//initialize
-		etemail = (EditText) findViewById(R.id.etLoginEmail);
-		etpassword = (EditText) findViewById(R.id.etPassword);
-		
-		btnsubmit  = (Button) findViewById(R.id.btnLoginSubmit);
-		btnsubmit.setOnClickListener(this);
-		btncancel = (Button) findViewById(R.id.btnLoginCancel);
-	    btncancel.setOnClickListener(this);
-
-		
-	}
+    EditText etemail, etpassword;
+    Button btnsubmit, btncancel;
 
 
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.btnLoginSubmit:
-			startActivity(new Intent(getApplicationContext(),IconScreen.class));
-			
-			break;
-			
-case R.id.btnLoginCancel:
-	startActivity(new Intent(getApplicationContext(),WelcomeScreen.class));
-			break;
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.login);
+        //initialize
+        etemail = (EditText) findViewById(R.id.etLoginEmail);
+        etpassword = (EditText) findViewById(R.id.etPassword);
+
+        btnsubmit = (Button) findViewById(R.id.btnLoginSubmit);
+        btnsubmit.setOnClickListener(this);
+        btncancel = (Button) findViewById(R.id.btnLoginCancel);
+        btncancel.setOnClickListener(this);
 
 
-		default:
-			break;
-		}
-		
-	}
+    }
+
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btnLoginSubmit:
+                startActivity(new Intent(getApplicationContext(), IconScreen.class));
+
+                break;
+
+            case R.id.btnLoginCancel:
+                startActivity(new Intent(getApplicationContext(), WelcomeScreen.class));
+                break;
+
+
+            default:
+                break;
+        }
+
+    }
 
 }

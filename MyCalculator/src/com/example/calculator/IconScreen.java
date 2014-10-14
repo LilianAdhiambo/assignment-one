@@ -17,37 +17,37 @@ import android.widget.Toast;
 import android.os.Build;
 
 public class IconScreen extends ActionBarActivity implements OnClickListener {
-	Button btnIconsubmit;
-	Button btnIconcancel;
+    Button btnIconsubmit;
+    Button btnIconcancel;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.icon);
-		btnIconsubmit = (Button) findViewById(R.id.btnIconsubmit);
-		btnIconsubmit.setOnClickListener(this);
-		btnIconcancel = (Button) findViewById(R.id.btnIconcancel);
-		btnIconcancel.setOnClickListener(this);
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.icon);
+        btnIconsubmit = (Button) findViewById(R.id.btnIconsubmit);
+        btnIconsubmit.setOnClickListener(this);
+        btnIconcancel = (Button) findViewById(R.id.btnIconcancel);
+        btnIconcancel.setOnClickListener(this);
 
-		
-	}
 
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.btnIconcancel:
-			Toast.makeText(getApplicationContext(), "you are about to leave this page",2000);
-			break;
-			
-			case R.id.btnIconsubmit:
-				break;
-				
+    }
 
-		default:
-			break;
-		}
-	
-		
-	}
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.btnIconcancel:
+                Toast.makeText(getApplicationContext(), "you are about to leave this page", 2000);
+                break;
+
+            case R.id.btnIconsubmit:
+                break;
+
+
+            default:
+                break;
+        }
+
+
+    }
 
 }

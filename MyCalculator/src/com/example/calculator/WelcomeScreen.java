@@ -15,41 +15,39 @@ import android.widget.Button;
 import android.os.Build;
 
 public class WelcomeScreen extends ActionBarActivity implements OnClickListener {
-	Button btnLogin;
-	Button btnRegister;
+    Button btnLogin;
+    Button btnRegister;
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.welcome);
-		//initialize
-		
-		btnLogin = (Button) findViewById(R.id.buttonLogin);
-		btnLogin.setOnClickListener(this);
-		btnRegister = (Button) findViewById(R.id.buttonRegister);
-		btnRegister.setOnClickListener(this);
-		
-		
-		
-		
-	}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.welcome);
+        //initialize
 
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.buttonLogin:
-			startActivity(new Intent(getApplicationContext(),LoginScreen.class));
-			break;
-			
-case R.id.buttonRegister:
-	startActivity(new Intent(getApplicationContext(),RegisterScreen.class));
-			break;
+        btnLogin = (Button) findViewById(R.id.buttonLogin);
+        btnLogin.setOnClickListener(this);
+        btnRegister = (Button) findViewById(R.id.buttonRegister);
+        btnRegister.setOnClickListener(this);
 
-		default:
-			break;
-		}
-		
-		
-	}
-		
+
+    }
+
+    @Override
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.buttonLogin:
+                startActivity(new Intent(getApplicationContext(), LoginScreen.class));
+                break;
+
+            case R.id.buttonRegister:
+                startActivity(new Intent(getApplicationContext(), RegisterScreen.class));
+                break;
+
+            default:
+                break;
+        }
+
+
+    }
+
 }

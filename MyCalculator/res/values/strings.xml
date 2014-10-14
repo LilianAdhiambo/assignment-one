@@ -8,22 +8,22 @@
     <string name="title_activity_rgister_screen">RgisterScreen</string>
     <string name="title_activity_home_screen">HomeScreen</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
-    
+
     <string name="welregister">register</string>
     <string name="welLogin">Login</string>
-    
+
     <string name="regFname">First Name</string>
     <string name="regSname">Second Name</string>
     <string name="regEmail">Email/userName</string>
     <string name="regPaswd">Password</string>
     <string name="regbtnsubmit">Submit</string>
     <string name="regbtncancel">Cancel</string>
-    
+
     <string name="logEmail">Email Address</string>
     <string name="logPswd">Password</string>
     <string name="logbtnSubmit">Submit</string>
     <string name="logbtncancel">Cancel</string>
-    
+
     <string name="title_activity_welcome_screen">WelcomeScreen</string>
     <string name="donate">donate</string>
     <string name="volunteer">volunteer</string>

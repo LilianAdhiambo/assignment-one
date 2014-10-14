@@ -15,24 +15,24 @@ import android.os.Build;
 
 public class SplashScreen extends ActionBarActivity {
 
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_splash_screen);
-		
-		int SPLASH_TIME = 2000;
-		Handler hnd =new Handler();
-		hnd.postDelayed(new Runnable(){
-			@Override
-			public void run(){
-				finish();
-				startActivity(new Intent(getApplicationContext(),LoginScreen.class));
-			}
-				},SPLASH_TIME);
-			
-		}
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash_screen);
+
+        int SPLASH_TIME = 2000;
+        Handler hnd = new Handler();
+        hnd.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                finish();
+                startActivity(new Intent(getApplicationContext(), LoginScreen.class));
+            }
+        }, SPLASH_TIME);
+
+    }
 }
-		
+
 		
 		
 		/*
