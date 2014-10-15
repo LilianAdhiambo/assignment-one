@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:background="@drawable/d"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/tvfull"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:typeface="serif"
+            android:layout_marginTop="10dp"
+            android:text="fullName"/>
+
+
+
+    <EditText
+            android:id="@+id/etfull"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+
+    <TextView
+            android:id="@+id/tvuser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UserName"
+            android:textColor="@color/white"
+            android:typeface="serif"
+            android:layout_alignBaseline="@+id/etpass"
+            android:layout_alignBottom="@+id/etpass"
+            android:layout_marginLeft="10dp" />
+
+    <EditText
+            android:id="@+id/etuser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvuser"
+            android:ems="10">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+            android:id="@+id/tvemaIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textColor="@color/white"
+            android:typeface="serif"
+            android:layout_below="@+id/etuser"
+            android:layout_alignStart="@+id/tvuser"
+            android:layout_marginTop="51dp"
+            android:layout_marginLeft="10dp"/>
+
+    <EditText
+            android:id="@+id/etmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvuser"
+            android:ems="10">
+
+        <requestFocus/>
+    </EditText>
+
+    <TextView
+            android:id="@+id/tvpas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:typeface="serif"
+            android:layout_below="@+id/etpass"
+            android:layout_alignEnd="@+id/tvpass"
+            android:layout_marginLeft="10dp" />
+
+    <EditText
+            android:id="@+id/etpas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvuser"
+            android:ems="10">
+
+        <requestFocus/>
+    </EditText>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:id="@+id/">
+
+        <Button
+                android:id="@+id/btnback"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_style"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:typeface="serif"
+                android:layout_margin="20dp"
+                android:layout_alignTop="@+id/btnLogin"/>
+
+        <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="120dp"
+                android:layout_margin="20dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_style"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:typeface="serif"
+                android:layout_marginBottom="112dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true" />
+
+
+
+    </LinearLayout>
+</LinearLayout>
